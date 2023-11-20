@@ -1,0 +1,63 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+h5, h4{
+    padding: 0;
+    margin: 0;
+    margin-left: 0.5rem;
+}
+div.post {
+    background: white;
+    margin-top: 90px;
+}
+
+div.post img {
+    width: 100%;
+}
+
+div.post h2,
+div.post p {
+    padding: 10px;
+    margin: 0;
+}
+
+div.container {
+    width: 400px;
+    margin: auto;
+}
+
+.comments {
+    display: flex;
+    width: 19%;
+    padding: 10px;
+    color: black;
+}
+
+.comments>i {
+    margin: 0 0.15rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons>i {
+
+    padding: 10px;
+    color: black;
+
+}
